@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13839445314770" configfile="/Exemplo1/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index" x="289" y="150" id="pf13839447408091" outlinks="pf13839447408092 pf13839447408093" inlinks="pf13839447408093" path="/index.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="ok" x="564" y="150" id="pf13839447408104" inlinks="pf13839447408092" path="/ok.jsp"/>
+  <links id="pf13839447408092" target="pf13839447408104" source="pf13839447408091" outcome="ok"/>
+  <links id="pf13839447408093" target="pf13839447408091" source="pf13839447408091" outcome="falha">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+</pageflow:Pageflow>

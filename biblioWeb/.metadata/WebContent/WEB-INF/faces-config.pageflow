@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13869696456760" configfile="/biblioWeb/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="principal.html" x="67" y="148" id="pf13869699509891" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf13869699509902" path="/principal.html"/>
+  <nodes xsi:type="pageflow:PFPage" name="cadastro" x="312" y="60" id="pf13869699509903" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf13869699509902" path="/cadastro.jsp"/>
+  <links id="pf13869699509902" target="pf13869699509891" source="pf13869699509903" outcome="ok"/>
+</pageflow:Pageflow>
