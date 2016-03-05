@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf13920619419470" configfile="/Banco/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="index" x="73" y="224" id="pf13920619735371" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" outlinks="pf13920619735372" inlinks="pf13920619735372" path="/index.jsp"/>
+  <links id="pf13920619735372" target="pf13920619735371" source="pf13920619735371" outcome="ok">
+    <bendPoints d1Height="-36" d2Height="-36"/>
+    <bendPoints d1Width="-64" d1Height="-36" d2Width="-64" d2Height="-36"/>
+    <bendPoints d1Width="-64" d2Width="-64"/>
+  </links>
+</pageflow:Pageflow>
